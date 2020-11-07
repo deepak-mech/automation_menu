@@ -18,18 +18,18 @@ def menu():
 	\tPress 7	:	Attach EBS Volume to EC2 Instance\n
 	\tPress 8	:	Create Partition  in EBS Volume\n
 	\tPress 9	:	Format the Partition\n
-	\tPress 10 :	Mount the Partition\n
-	\tPress 11 :	Configure Web Server\n
-	\tPress 12 :	Show Web Page\n
-	\tPress 13 :      Create S3 Bucket\n
-	\tPress 14 :      Upload file in S3 Bucket\n
-	\tPress 15 :      Show Web Page having bucket file (High Latency)\n
-	\tPress 16 :	Create CloudFront Distribution\n
-	\tPress 17 :      Show Web Page having bucket file  (Low Latency)\n
-	\tPress 18 :	Delete Bucket\n
-	\tPress 19 :	Detach  Volume\n
-	\tPress 20 :	Terminate Instance\n
-	\tPress 21 :	Exit the Program\n
+	\tPress 10	:	Mount the Partition\n
+	\tPress 11	:	Configure Web Server\n
+	\tPress 12	:	Show Web Page\n
+	\tPress 13	:       Create S3 Bucket\n
+	\tPress 14	:       Upload file in S3 Bucket\n
+	\tPress 15	:       Show Web Page having bucket file (High Latency)\n
+	\tPress 16	:	Create CloudFront Distribution\n
+	\tPress 17	:       Show Web Page having bucket file  (Low Latency)\n
+	\tPress 18	:	Delete Bucket\n
+	\tPress 19	:	Detach  Volume\n
+	\tPress 20	:	Terminate Instance\n
+	\tPress 21	:	Exit the Program\n
 
 	""")
 
