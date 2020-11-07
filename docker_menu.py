@@ -9,7 +9,7 @@ print(" \t\t\t---------------------------------------------- ")
 print("""
 
 \tPress 0	:	Install Docker
-\tPress 1 :       Start Docker Services
+\tPress 1       :       Start Docker Services
 \tPress 2	:	Pull Docker Image
 \tPress 3	:	Launch Container
 \tPress 4	:	Configure Apache Web-Server
