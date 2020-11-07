@@ -13,6 +13,7 @@ Press 3	:	Reboot the system
 Press 4	:	Create a New User
 Press 5	:	Show all Hadoop-Cluster Files
 Press 6	:	Show all Files in Root Folder
+Press 7	:	Open Firefox
 """)
 
 r = input("How do you want to run the program ? ( local or remote )  :    ")
@@ -42,6 +43,8 @@ if r == "local":
 		elif int(ch) == 6:
 			os.system(" ls -l ")
 			
+		elif int(ch)==3:
+        		os.system(" firefox ")
 
 elif r == "remote":
 	ip = input("Enter IP address where you want to remote login :  ")
@@ -50,23 +53,26 @@ elif r == "remote":
 		#print(ch)
 
 		if int(ch) == 1:
-			os.system(' ssh {} date '.format( ip ))
+			os.system(' ssh {} date '.format(ip))
 
 		elif int(ch) == 2:
-			os.system( " ssh {} cal ".format( ip ))
+			os.system( " ssh {} cal ".format(ip))
 
 		elif int(ch) == 3:
-			os.system(" ssh {} reboot ".format( ip ))
+			os.system(" ssh {} reboot ".format(ip))
 
 		elif int(ch) == 4:
-			os.system(" ssh {} useradd mk ".format( ip ))
-			os.system(" ssh {} passwd mk ".format( ip ))
+			os.system(" ssh {} useradd mk ".format(ip))
+			os.system(" ssh {} passwd mk ".format(ip))
 
 		elif int(ch) == 5:
-			os.system(" ssh {} hadoop fs -ls  / ".format( ip ))
+			os.system(" ssh {} hadoop fs -ls  / ".format(ip))
 
 		elif int(ch) == 6:
-			os.system(" ssh {} ls -l ".format( ip ))
+			os.system(" ssh {} ls -l ".format(ip))
+			
+		elif int(ch) == 7:
+        		os.system(" ssh {} firefox ".format(ip))
 
 else:
 	print(" Not Supported")
