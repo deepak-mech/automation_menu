@@ -22,8 +22,8 @@ while True:
 
 	print("""
 
-	\tPress 1 :	Create Physical Volumes
-	\tPress 2 :       Create Volume Group
+	\tPress 1	:	Create Physical Volumes
+	\tPress 2	:       Create Volume Group
 	\tPress 3	:	Create LVM Partitions
 	\tPress 4	:	Format & Mount the LVM Partitions
 	\tPress 5	:	Start Namenode & Datanode
@@ -31,7 +31,7 @@ while True:
 	\tPress 7	:	Extend the size of LVM Partitions on the Fly
 	\tPress 8	:	Again Check Contribution of Datanode Storage
 	\tPress 9	:	Remove LVM
-	\tPress 10:       Exit the Program
+	\tPress 10	:       Exit the Program
 	""")
 	print()
 
