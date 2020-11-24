@@ -1,2 +1,2 @@
-# text_automation_menu
+# Various technologies are automated together through python scripting. 
 
